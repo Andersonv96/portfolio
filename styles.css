@@ -367,5 +367,18 @@ section {
     .skill___content-item {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
+        width: 25vw;
+        column-gap: 11rem;
+    }
+     
+    .skill__content-item-image {
+        padding: 0%;
+    }
+
+    .skill___content-item-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
