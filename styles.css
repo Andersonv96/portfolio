@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+
+    background-color: #020403;
+    color: #FFFFFF;
+
+}
+
+h3 {
+    color: darkgrey;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+
+.up-arrow {
+    background-color: #FFFFFF;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+
+    height: 50px;
+    padding: 0 1rem;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+section {
+    min-height: 100vg;
+}
+
+
+
+.menu {
+
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 50%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+
+    transform: translate(-150%);
+    transition: trasform 0, 5s;
+
+}
+
+.menu-show {
+    transform: translate(0);
+}
+
+.bx-menu {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.home {
+    text-align: center;
+    padding: 4rem 2rem 3rem;
+}
+
+.home__content-item-image img {
+    border-radius: 5rem;
+    width: 180px;
+    height: 180px;
+}
+
+.home__content-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.icons__home {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 3rem;
+}
+
+.icons__content-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutMe {
+    text-align: center;
+    padding: 2rem 4rem;
+}
+
+.AboutMe__content-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+.text__skills {
+    padding: 1rem;
+}
+
+
+.skill__content-item-image svg {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(63, 60, 60);
+
+
+
+}
+
+
+.MiSkills {
+    text-align: center;
+    padding: 2rem 4rem;
+
+}
+
+
+.skill__content-item-image {
+    padding: 2rem 6rem;
+}
+
+
+.skill___content-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.text_experience {
+    text-align: left;
+}
+
+.experience {
+    text-align: center;
+    padding: 2rem 2rem;
+    ;
+}
+
+.experpience__content-item {
+
+    display: flex;
+    gap: 7rem;
+    padding: 1rem;
+}
+
+
+
+
+.portafolio__content-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+
+}
+
+
+.title__conctact {
+    padding: 1.5rem 3rem;
+}
+
+.contact__content-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.contact__content-item-imag {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid white;
+
+
+    display: grid;
+    grid-column: 2;
+    grid-row: 4;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+.contact__content-item {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+
+}
+
+.text {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 0 0 0 2rem;
+
+}
+
+
+.text__footer {
+    padding: 2rem;
+}
+
+
+.text__footer_content-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text__contact {
+    color: rgba(172, 172, 172, 1);
+
+}
+
+
+@media (min-width: 800px) {
+
+    h1 {
+        font-size: 60px;
+
+    }
+
+
+    h4 {
+        font-size: 30px;
+        color: dimgrey;
+
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 40px;
+        font-weight: 200;
+    }
+
+    .bx-menu {
+        display: none;
+    }
+
+    .menu {
+
+        position: static;
+        width: auto;
+        height: auto;
+        flex-direction: row;
+        gap: 3rem;
+        transform: translateX(0);
+    }
+
+    .home__content-item-image {
+        padding: 2rem;
+
+    }
+
+    .icons__content-item {
+
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .AboutMe__content-item {
+        padding: 0 8rem;
+    }
+
+    .icons__home {
+        padding: 2rem;
+
+    }
+
+
+
+    .experpience__content-item {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+
+    .portfolio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .title__conctact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .skill___content-item {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
